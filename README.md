@@ -1,3 +1,4 @@
+
 # DevOps CI/CD Pipeline Project
 
 This project demonstrates a complete **CI/CD and Continuous Deployment pipeline** using Docker, GitHub Actions, Docker Hub, and AWS EC2.
@@ -118,3 +119,25 @@ Open your repo on GitHub.
 You will now see a professional README page at the top of the repository.
 
 
+## Monitoring Stack
+
+This project includes a monitoring stack built with:
+
+- Prometheus
+- Grafana
+- Node Exporter
+
+Architecture:
+
+Node Exporter
+     ↓
+Prometheus
+     ↓
+Grafana
+
+Metrics monitored:
+
+- CPU usage
+- Memory usage
+- Disk usage
+- Network traffic
