@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("DevOps CI/CD Pipeline Running 🚀");
+  res.send("CI/CD Auto Deployment Working 🚀 Version 2");
 });
 
 app.listen(3000, () => {
